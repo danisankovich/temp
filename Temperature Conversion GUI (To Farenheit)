@@ -1,0 +1,28 @@
+from tkinter import *
+
+def convertToFarenheit():
+    tempC = int(userInput.get())
+    farenheitText['text'] = 'Farenheit: '
+    farenheit = ((tempC  * 1.8) + 32)
+    farenheitText['text'] += str(farenheit)
+
+
+root = Tk()
+
+inputFrame = Frame(root)
+inputFrame.pack(anchor=N)
+
+inputBoxLabel = Label(inputFrame)
+inputBoxLabel['text'] = 'Enter Degrees Celsius:'
+inputBoxLabel.pack(side=TOP, fill=X)
+
+userInput = Entry(inputFrame)
+userInput.pack(side=BOTTOM, fill=X)
+
+button = Button(inputFrame)
+button['text'] = 'Convert'
+button['command'] = convertToFarenheit
+button.pack(side=TOP, anchor=N)
+
+farenheitText = Label(root)
+farenheitText.pack(side=BOTTOM, anchor=S)
