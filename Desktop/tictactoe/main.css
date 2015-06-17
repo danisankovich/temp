@@ -1,0 +1,88 @@
+
+
+h1 {
+  text-align: center;
+}
+#info {
+  backgroung-color: #dddddd;
+}
+
+.button {
+  font-size: 24;
+  float: right;
+  width: 100px;
+  height: 40px;
+  margin-right: 100px;
+}
+
+#board {
+  margin-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: #dddddd;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ul {
+    border-right:2px solid #000000;
+    border-bottom:2px solid #000000;
+}
+
+.um {
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.ur {
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.ml {
+    border-right:2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom:2px solid #000000;
+    }
+
+.mm{
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+  }
+
+.mr{
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+
+.ll {
+    border-right:2px solid #000000;
+    border-top: 2px solid #000000;
+    }
+
+.lm{
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+  }
+
+.lr{
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+  }
+
+.exes {
+  background-color: green;
+}
+
+.os {
+  background-color: red;
+}
