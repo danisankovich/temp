@@ -1,0 +1,27 @@
+from tkinter import *
+
+def convertToCelsius():
+    tempF = int(userInput.get())
+    celsiusText['text'] = 'Celsius: '
+    celsius = ((tempF - 32) / 1.8)
+    celsiusText['text'] += str(celsius)
+
+root = Tk()
+
+inputFrame = Frame(root)
+inputFrame.pack(anchor=N)
+
+inputBoxLabel = Label(inputFrame)
+inputBoxLabel['text'] = 'Enter Degrees Farenheit:'
+inputBoxLabel.pack(side=TOP, fill=X)
+
+userInput = Entry(inputFrame)
+userInput.pack(side=BOTTOM, fill=X)
+
+button = Button(inputFrame)
+button['text'] = 'Convert'
+button['command'] = convertToCelsius
+button.pack(side=TOP, anchor=N)
+
+celsiusText = Label(root)
+celsiusText.pack(side=BOTTOM, anchor=S)
