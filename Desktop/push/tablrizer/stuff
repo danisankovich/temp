@@ -1,0 +1,10 @@
+make a little JQuery plugin that does soemthing random.
+random color fonts. Every time they scroll, click, or use up or down arrow, the background changes.
+nyan cat shows up
+
+towers of hanoi. three divs, each a container. for the disks.
+JQuery ui library, drag (for later)
+
+compare first child of each div.
+
+click handlers. evaluating booleans. 
