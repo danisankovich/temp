@@ -6,6 +6,7 @@
 // curl localhost:8888/Calc/4+5
 // curl localhost:8888/Counts/A%20Sentence%20here
 
+
 var fs = require("fs"),
   http = require("http"),
   request = require('request'),
@@ -14,9 +15,10 @@ var fs = require("fs"),
   Firebase = require('firebase'),
   md5 = require('MD5');
 
-http.createServer(responseHandler).listen(8888);
+http.createServer(responseHandler).listen(process.env.PORT);
 
-var fbRef = new Firebase("https://samer-node-testing.firebaseio.com/");
+// var fbRef = new Firebase("https://mikenode.firebaseio.com/");
+var fbRef = new Firebase("process.env.FB_URL");
 var fbEntriesRef = fbRef.child("entries");
 var totalsRef = fbRef.child("totals");
 

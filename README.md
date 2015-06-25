@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Python-Stuff
 # Python-Stuff
 # Python-Stuff
@@ -20,3 +21,6 @@
 # blog
 # mikesankovich.github.io
 # mikesankovich.github.io
+=======
+# redditClone
+>>>>>>> 7240c120f609ed08df80c17a5795303a9375b8a3
