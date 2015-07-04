@@ -1,0 +1,25 @@
+.boardCell {
+  background:#44FFAA;
+  width:20px;
+  height:20px;
+  float:left;
+}
+.blob {
+  background-image:url('snake.png');
+}
+
+.snakehead {
+  background-image:url('snakehead.png') !important;
+}
+.food{
+  background-image:url('banana.png');
+  background-repeat:no-repeat;
+}
+
+#mainBoard {
+    width: 400px;
+    height:400px;
+    padding:0px;
+    margin:0px;
+    border:10px solid #003366;
+}
