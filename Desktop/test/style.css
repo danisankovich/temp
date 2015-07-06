@@ -1,0 +1,31 @@
+td {
+  padding:10px;
+  border:#4e95f4 1px solid;
+}
+tr {
+  background: white;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+table tr:hover {
+  background-color: #ffff99;
+}
+
+table tr:not(:hover) {
+  opacity: .25;
+}
+
+.yes {
+  background-color: green;
+}
+
+.no {
+  background-color: red;
+}
+
+.partial {
+  background-color: orange;
+}
